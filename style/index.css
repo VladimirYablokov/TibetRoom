@@ -5,7 +5,7 @@
 }
 
 .main {
-  height: 1300px;
+  height: 985px;
   display: flex;
   justify-content: space-between;
   flex-direction: column;
@@ -14,6 +14,7 @@
   background-size: cover;
   background-repeat: no-repeat;
 }
+
 .navigation {
   display: flex;
   align-content: flex-start;
@@ -279,17 +280,18 @@
 
 .info_box3 {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding-bottom: 100px;
 }
-.info_box3 .box3 {
+.info_box3 .title_box {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.info_box3 .box3 .info_title {
+.info_box3 .title_box .info_title {
   color: #F2BE22;
   font-family: "Nunito", sans-serif;
   font-size: 24px;
@@ -299,7 +301,7 @@
   padding-bottom: 8px;
   padding-top: 80px;
 }
-.info_box3 .box3 .info {
+.info_box3 .title_box .info {
   color: #18121E;
   font-family: "Nunito", sans-serif;
   font-size: 32px;
@@ -307,6 +309,404 @@
   font-weight: 600;
   line-height: 120%;
   padding-bottom: 40px;
+}
+.info_box3 .info3_cardbox {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  padding-bottom: 50px;
+}
+.info_box3 .info3_cardbox .card1 {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  height: 500px;
+  width: 380px;
+  background-image: url("../media/cardbackimg1.png");
+}
+.info_box3 .info3_cardbox .card1 .info_cardbox {
+  width: 380px;
+  height: 90px;
+  flex-shrink: 0;
+  border-radius: 0px 0px 32px 32px;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(3px);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.info_box3 .info3_cardbox .card1 .info_cardbox .card_title {
+  color: #FDFDFD;
+  font-family: "Nunito", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+}
+.info_box3 .info3_cardbox .card1 .info_cardbox .card_text {
+  color: #FDFDFD;
+  font-family: "Nunito", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+}
+.info_box3 .info3_cardbox .card1 .info_cardbox .price_box {
+  display: inline-flex;
+  padding: 8px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 4px;
+  background: rgba(255, 255, 255, 0.3);
+}
+.info_box3 .info3_cardbox .card1 .info_cardbox .price_box .price {
+  color: #FDFDFD;
+  font-family: "Nunito" sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+}
+.info_box3 .info3_cardbox .card2 {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  height: 500px;
+  width: 380px;
+  background-image: url("../media/cardbackimg2.png");
+  margin: 0 20px;
+}
+.info_box3 .info3_cardbox .card2 .info_cardbox {
+  width: 380px;
+  height: 90px;
+  flex-shrink: 0;
+  border-radius: 0px 0px 32px 32px;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(3px);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.info_box3 .info3_cardbox .card2 .info_cardbox .card_title {
+  color: #FDFDFD;
+  font-family: "Nunito", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+}
+.info_box3 .info3_cardbox .card2 .info_cardbox .card_text {
+  color: #FDFDFD;
+  font-family: "Nunito", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+}
+.info_box3 .info3_cardbox .card2 .info_cardbox .price_box {
+  display: inline-flex;
+  padding: 8px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 4px;
+  background: rgba(255, 255, 255, 0.3);
+}
+.info_box3 .info3_cardbox .card2 .info_cardbox .price_box .price {
+  color: #FDFDFD;
+  font-family: "Nunito" sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+}
+.info_box3 .info3_cardbox .card3 {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  height: 500px;
+  width: 380px;
+  background-image: url("../media/cardbackimg3.png");
+}
+.info_box3 .info3_cardbox .card3 .info_cardbox {
+  width: 380px;
+  height: 90px;
+  flex-shrink: 0;
+  border-radius: 0px 0px 32px 32px;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(3px);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.info_box3 .info3_cardbox .card3 .info_cardbox .card_title {
+  color: #FDFDFD;
+  font-family: "Nunito", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+}
+.info_box3 .info3_cardbox .card3 .info_cardbox .card_text {
+  color: #FDFDFD;
+  font-family: "Nunito", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+}
+.info_box3 .info3_cardbox .card3 .info_cardbox .price_box {
+  display: inline-flex;
+  padding: 8px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 4px;
+  background: rgba(255, 255, 255, 0.3);
+}
+.info_box3 .info3_cardbox .card3 .info_cardbox .price_box .price {
+  color: #FDFDFD;
+  font-family: "Nunito" sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+}
+.info_box3 .btn {
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #1A3E3E;
+  border-radius: 4px;
+  border: none;
+  width: 157px;
+  height: 44px;
+  padding: 12px 24px;
+  gap: 10px;
+  color: #FDFDFD;
+  cursor: pointer;
+  transition: background-color 0.5s ease, outline 0.5s ease;
+  width: 236px;
+  height: 52px;
+}
+.info_box3 .btn:hover {
+  color: #1A3E3E;
+  background-color: #FDFDFD;
+  outline: 1px solid #1A3E3E;
+}
+
+.info_box4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 100px;
+  background-color: #F3F5F4;
+}
+.info_box4 .title_box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.info_box4 .title_box .info_title {
+  color: #F2BE22;
+  font-family: "Nunito", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  padding-bottom: 8px;
+  padding-top: 80px;
+}
+.info_box4 .title_box .info {
+  color: #18121E;
+  font-family: "Nunito", sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+  padding-bottom: 40px;
+}
+.info_box4 .info4_cardbox {
+  display: grid;
+  grid-template-columns: 580px 580px;
+  grid-gap: 20px;
+  padding-bottom: 50px;
+}
+.info_box4 .info4_cardbox .card {
+  display: flex;
+  padding: 16px;
+  background-color: #FDFDFD;
+}
+.info_box4 .info4_cardbox .card > img {
+  height: 280px;
+  width: 230px;
+}
+.info_box4 .info4_cardbox .card .card_info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-left: 20px;
+  width: 294px;
+  margin: 16px 0;
+}
+.info_box4 .info4_cardbox .card .card_info .card_title {
+  color: #18121E;
+  font-family: "Nunito", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+  cursor: pointer;
+}
+.info_box4 .info4_cardbox .card .card_info .card_title:hover {
+  color: #1A3E3E;
+  text-decoration: underline;
+}
+.info_box4 .info4_cardbox .card .card_info .card_text {
+  overflow: hidden;
+  color: #18121E;
+  text-overflow: ellipsis;
+  font-family: "Nunito", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+.info_box4 .info4_cardbox .card .card_info .card_bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-self: stretch;
+}
+.info_box4 .info4_cardbox .card .card_info .card_bottom .card_date {
+  color: #F2BE22;
+  font-family: "Nunito", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+}
+.info_box4 .info4_cardbox .card .card_info .card_bottom .card_btn {
+  color: #1A3E3E;
+  font-family: "Nunito", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  border: none;
+  background-color: #FDFDFD;
+  cursor: pointer;
+}
+.info_box4 .info4_cardbox .card .card_info .card_bottom .card_btn:hover {
+  color: #1A3E3E;
+  text-decoration: underline;
+}
+.info_box4 .btn {
+  width: 220px;
+}
+
+.info_box5 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 100px;
+}
+.info_box5 .title_box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.info_box5 .title_box .info_title {
+  color: #F2BE22;
+  font-family: "Nunito", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  padding-bottom: 8px;
+  padding-top: 80px;
+}
+.info_box5 .title_box .info {
+  color: #18121E;
+  font-family: "Nunito", sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+  padding-bottom: 40px;
+}
+.info_box5 .photo_box {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+  padding-bottom: 50px;
+}
+.info_box5 .photo_box .photo1 {
+  background-image: url("../media/photo1.png");
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  width: 580px;
+  height: 250px;
+}
+.info_box5 .photo_box .photo2 {
+  background-image: url("../media/photo2.png");
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  width: 280px;
+  height: 250px;
+}
+.info_box5 .photo_box .photo3 {
+  background-image: url("../media/photo3.png");
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  width: 280px;
+  height: 250px;
+}
+.info_box5 .photo_box .photo4 {
+  background-image: url("../media/photo5.png");
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 2;
+  width: 280px;
+  height: 250px;
+}
+.info_box5 .photo_box .photo5 {
+  background-image: url("../media/photo4.png");
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 2;
+  width: 580px;
+  height: 250px;
+}
+.info_box5 .photo_box .photo6 {
+  background-image: url("../media/photo6.png");
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 2;
+  grid-row-end: 2;
+  width: 280px;
+  height: 250px;
 }
 
 .btn {

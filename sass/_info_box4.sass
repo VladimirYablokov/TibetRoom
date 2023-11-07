@@ -1,0 +1,63 @@
+.info_box4
+    display: flex
+    flex-direction: column
+    align-items: center
+    justify-content: center
+    padding-bottom: 100px
+    background-color: $box-bg-color
+
+    .title_box
+        display: flex
+        flex-direction: column
+        justify-content: center
+        align-items: center
+
+        .info_title
+            @include mix_info_title
+            padding-top: 80px
+
+        .info
+            @include mix_info
+
+    .info4_cardbox
+        display: grid
+        grid-template-columns: 580px 580px
+        grid-gap: 20px
+        padding-bottom: 50px
+
+        .card
+            display: flex
+            padding: 16px
+            background-color: $light-font-color
+            
+            >img
+                height: 280px
+                width: 230px
+
+            .card_info
+                display: flex
+                flex-direction: column
+                justify-content: space-between
+                align-items: flex-start
+                padding-left: 20px
+                width: 294px
+                margin: 16px 0
+
+
+                .card_title
+                    @include mix_blog_card_title
+
+                .card_text
+                    @include mix_blog_card_text
+
+                .card_bottom
+                    @include mix_blog_card_botm
+
+                    .card_date
+                        @include mix_blog_card_date
+
+                    .card_btn
+                        @include mix_blog_car
+                        
+    .btn
+        width: 220px

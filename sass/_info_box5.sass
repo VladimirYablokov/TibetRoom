@@ -1,0 +1,79 @@
+.info_box5
+    display: flex
+    flex-direction: column
+    align-items: center
+    justify-content: center
+    padding-bottom: 100px
+
+    .title_box
+        display: flex
+        flex-direction: column
+        justify-content: center
+        align-items: center
+
+        .info_title
+            @include mix_info_title
+            padding-top: 80px
+
+        .info
+            @include mix_info
+
+    .photo_box
+        display: grid
+        grid-template-columns: repeat(4, 1fr)
+        grid-gap: 20px
+        padding-bottom: 50px
+
+        .photo1
+            background-image: url('../media/photo1.png')
+            grid-column-start: 1
+            grid-column-end: 3
+            grid-row-start: 1
+            grid-row-end: 1
+            width: 580px
+            height: 250px
+
+        .photo2
+            background-image: url('../media/photo2.png')
+            grid-column-start: 3
+            grid-column-end: 4
+            grid-row-start: 1
+            grid-row-end: 1
+            width: 280px
+            height: 250px
+        
+        .photo3
+            background-image: url('../media/photo3.png')
+            grid-column-start: 4
+            grid-column-end: 5
+            grid-row-start: 1
+            grid-row-end: 1
+            width: 280px
+            height: 250px
+
+        .photo4
+            background-image: url('../media/photo5.png')
+            grid-column-start: 1
+            grid-column-end: 2
+            grid-row-start: 2
+            grid-row-end: 2
+            width: 280px
+            height: 250px
+
+        .photo5
+            background-image: url('../media/photo4.png')
+            grid-column-start: 2
+            grid-column-end: 4
+            grid-row-start: 2
+            grid-row-end: 2
+            width: 580px
+            height: 250px
+
+        .photo6
+            background-image: url('../media/photo6.png')
+            grid-column-start: 4
+            grid-column-end: 5
+            grid-row-start: 2
+            grid-row-end: 2
+            width: 280px
+            height: 250px

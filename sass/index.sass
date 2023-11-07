@@ -57,10 +57,117 @@ $box-bg-color: #F3F5F4
     line-height: 150%
     padding-bottom: 40px
 
+@mixin mix_popul_direc_card
+    display: flex
+    align-items: flex-end
+    justify-content: center
+    height: 500px
+    width: 380px
+
+@mixin mix_popul_direc_cardbox
+    width: 380px
+    height: 90px
+    flex-shrink: 0
+    border-radius: 0px 0px 32px 32px
+    background: rgba(255, 255, 255, 0.20)
+    backdrop-filter: blur(3px)
+    display: flex
+    flex-direction: row
+    justify-content: center
+    align-items: center
+    justify-content: space-evenly
+
+@mixin mix_popul_direc_card_title
+    color: $light-font-color
+    font-family: 'Nunito', sans-serif
+    font-size: 24px
+    font-style: normal
+    font-weight: 700
+    line-height: 120%
+
+@mixin mix_popul_direc_card_text
+    color: $light-font-color
+    font-family: 'Nunito', sans-serif
+    font-size: 14px
+    font-style: normal
+    font-weight: 400
+    line-height: 18px
+
+@mixin mix_popul_direc_card_pricebox
+    display: inline-flex
+    padding: 8px 16px
+    justify-content: center
+    align-items: center
+    gap: 10px
+    border-radius: 4px
+    background: rgba(255, 255, 255, 0.30)
+
+@mixin mix_popul_direc_card_pricebox_price
+    color: $light-font-color
+    font-family: 'Nunito' sans-serif
+    font-size: 20px
+    font-style: normal
+    font-weight: 700
+    line-height: 24px
+
+@mixin mix_blog_card_title
+    color: $dark-font-color
+    font-family: 'Nunito', sans-serif
+    font-size: 24px
+    font-style: normal
+    font-weight: 700
+    line-height: 32px
+    cursor: pointer
+    &:hover
+        color: $button-bg-color
+        text-decoration: underline
+
+@mixin mix_blog_card_text
+    overflow: hidden
+    color: $dark-font-color
+    text-overflow: ellipsis
+    // white-space: nowrap
+    font-family: 'Nunito', sans-serif
+    font-size: 14px
+    font-style: normal
+    font-weight: 400
+    line-height: 20px
+
+@mixin mix_blog_card_botm
+    display: flex
+    justify-content: space-between
+    align-items: flex-start
+    align-self: stretch
+
+@mixin mix_blog_card_date
+    color: $gold-font-color
+    font-family: 'Nunito', sans-serif
+    font-size: 14px
+    font-style: normal
+    font-weight: 700
+    line-height: 20px
+
+@mixin mix_blog_car
+    color: $button-bg-color
+    font-family: 'Nunito', sans-serif
+    font-size: 14px
+    font-style: normal
+    font-weight: 700
+    line-height: 20px
+    border: none
+    background-color: $light-font-color
+    cursor: pointer
+    &:hover
+        color: $button-bg-color
+        text-decoration: underline
+
+
 @import 'main'
 @import 'nav'
 @import 'search'
 @import 'info_box1'
 @import 'info_box2'
 @import 'info_box3'
+@import 'info_box4'
+@import 'info_box5'
 @import 'button'
