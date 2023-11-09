@@ -1,0 +1,83 @@
+footer
+    height: 587px
+    background-color: $button-bg-color
+    display: flex
+    justify-content: center
+    align-items: center
+    position: relative
+
+    .contact_box
+        width: 1180px
+        display: flex
+        flex-direction: row
+        justify-content: space-between
+
+        .col-1
+            display: flex
+            flex-direction: column
+
+            >p
+                max-width: 441px
+                color: $light-font-color
+                font-family: 'Nunito', sans-serif
+                font-size: 14px
+                font-style: normal
+                font-weight: 400
+                line-height: 20px
+                padding-bottom: 80px
+
+            >h2
+                @include mix_contact_h2
+
+            .email_phone
+                display: flex
+                flex-direction: row
+                justify-content: start
+
+                >p
+                    color: $light-font-color
+                    font-family: 'Nunito', sans-serif
+                    font-size: 14px
+                    font-style: normal
+                    font-weight: 600
+                    line-height: 18px
+                    text-decoration-line: underline
+                    padding-bottom: 32px
+                    padding-right: 24px
+
+            .social_media
+
+                img
+                    margin-right: 16px
+                    cursor: pointer
+
+
+        .col-2
+            display: flex
+            flex-direction: column
+
+            h2
+                @include mix_contact_h2
+
+            ul
+                li
+                    @include mix_contact_li
+
+        .col-3
+            display: flex
+            flex-direction: column
+            max-width: 250px
+
+            h2
+                @include mix_contact_h2
+
+            ul
+                li
+                    @include mix_contact_li
+
+
+
+
+
+
+

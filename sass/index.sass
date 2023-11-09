@@ -161,6 +161,36 @@ $box-bg-color: #F3F5F4
         color: $button-bg-color
         text-decoration: underline
 
+@mixin mix_contact_h2
+    color: $light-font-color
+    font-family: 'Nunito', sans-serif
+    font-size: 20px
+    font-style: normal
+    font-weight: 700
+    line-height: 24px
+    margin-bottom: 17px
+
+@mixin mix_contact_li
+    list-style: url('../media/arrowfooter.png')
+    color: $light-font-color
+    font-family: 'Nunito', sans-serif
+    font-size: 14px
+    font-style: normal
+    font-weight: 400
+    line-height: 18px
+    padding-bottom: 16px
+    margin-left: 15px
+    cursor: pointer
+    transition: color 0.2s ease
+
+
+    &:hover
+        list-style: url('../media/arrowfootergold.png')
+        color: $gold-font-color
+        text-decoration-line: underline
+        
+
+
 
 @import 'main'
 @import 'nav'
@@ -170,4 +200,7 @@ $box-bg-color: #F3F5F4
 @import 'info_box3'
 @import 'info_box4'
 @import 'info_box5'
+@import 'footer'
+@import 'black'
 @import 'button'
+@import '@media'
