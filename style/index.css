@@ -103,19 +103,28 @@
   font-family: "Nunito", sans-serif;
   font-size: 16px;
   color: white;
+  outline: 0;
 }
 .search form > input::placeholder {
   color: white;
+}
+.search form > input[type=date]::-webkit-calendar-picker-indicator {
+  filter: invert(1);
 }
 .search form > button {
   display: flex;
   padding: 16px 36px;
   justify-content: center;
   align-items: center;
-  gap: 10px;
   border-radius: 4px;
   color: #1A3E3E;
+  font-family: "Nunito", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
   cursor: pointer;
+  border: none;
 }
 .search .btn {
   display: none;
