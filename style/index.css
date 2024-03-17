@@ -10,7 +10,7 @@
   justify-content: space-between;
   flex-direction: column;
   align-items: center;
-  background-image: url("/Portfolio/Tibet_Room/media/mount.png");
+  background-image: url("/Portfolio/tibet_room/media/mount.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -1063,7 +1063,6 @@ footer .contact_box .col-3 ul li:hover {
     margin-bottom: 34px;
     margin-top: 34px;
   }
-
   .info_box1 {
     display: flex;
     flex-direction: row;
@@ -1140,7 +1139,6 @@ footer .contact_box .col-3 ul li:hover {
     margin-bottom: 40px;
     align-self: center;
   }
-
   .info_box2 {
     display: flex;
     flex-direction: row;
@@ -1267,7 +1265,6 @@ footer .contact_box .col-3 ul li:hover {
     height: 250px;
     background-image: url("../media/info_box_img6.png");
   }
-
   .info_box3 {
     display: flex;
     flex-direction: column;
@@ -1494,7 +1491,6 @@ footer .contact_box .col-3 ul li:hover {
     background-color: #FDFDFD;
     outline: 1px solid #1A3E3E;
   }
-
   .info_box4 {
     display: flex;
     flex-direction: column;
@@ -1612,7 +1608,6 @@ footer .contact_box .col-3 ul li:hover {
   .info_box4 .btn {
     width: 220px;
   }
-
   .info_box5 {
     position: relative;
     display: flex;
@@ -1765,7 +1760,6 @@ footer .contact_box .col-3 ul li:hover {
     max-width: 650px;
     margin-top: 8px;
   }
-
   footer {
     height: 587px;
     background-color: #1A3E3E;
@@ -1886,7 +1880,6 @@ footer .contact_box .col-3 ul li:hover {
     color: #F2BE22;
     text-decoration-line: underline;
   }
-
   .black {
     height: 66px;
     background-color: #18121E;
