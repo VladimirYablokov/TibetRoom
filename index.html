@@ -11,7 +11,7 @@
 <body>
     <container class="main">
         <nav class="navigation">
-            <img src="/Portfolio/Tibet_Room/media/mount-logo.png" alt="РУМТИБЕТ">
+            <img src="/Portfolio/tibet_room/media/mount-logo.png" alt="РУМТИБЕТ">
             <ul>
                 <li><a href="">Главная</a></li>
                 <li><a href="">Про гида</a></li>
@@ -25,12 +25,26 @@
         <div class="search">
             <h1>Насладись прогулкой в горах <br>с командой единомышленников</h1>
             <form action="">
-                <input type="text" placeholder="Локация для тура" >
-                <input type="text" placeholder="Дата похода">
-                <input type="text" placeholder="Участники">
+                <input type="text" list="cities" placeholder="Локация для тура">
+                <datalist id="cities">
+                    <option value="Moscow"></option>
+                    <option value="Kostroma"></option>
+                    <option value="Yaroslavl"></option>
+                    <option value="Minsk"></option>
+                    <!-- <option value="44a"></option> -->
+                </datalist>
+                <input type="date" placeholder="Дата похода">
+                <input type="text" list="members" placeholder="Участники">
+                <datalist id="members">
+                    <option value="4"></option>
+                    <option value="5"></option>
+                    <option value="6"></option>
+                    <option value="7"></option>
+                    <option value="8+"></option>
+                </datalist>
                 <button>Найти программу</button>
                 <p>Выберите из списка</p>
-                <p>укажите диапазон</p>
+                <p>укажите дату</p>
                 <p>минимум 4 человека</p>
             </form>
             <button class="btn">Найти программу</button>

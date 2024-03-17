@@ -36,6 +36,7 @@
         line-height: 150%
         grid-gap: 8px 24px
 
+
         >input
             height: 52px
             padding: 0px 16px
@@ -46,9 +47,13 @@
             font-family: "Nunito", sans-serif
             font-size: 16px
             color: white
+            outline: 0
 
             &::placeholder
                 color: white
+
+        >input[type=date]::-webkit-calendar-picker-indicator
+            filter: invert(1)
 
         >button
             // width: 213px
@@ -56,10 +61,17 @@
             padding: 16px 36px
             justify-content: center
             align-items: center
-            gap: 10px
+            // gap: 10px
             border-radius: 4px
             color: #1A3E3E
+            font-family: 'Nunito', sans-serif
+            font-size: 16px
+            font-style: normal
+            font-weight: 700
+            line-height: 20px
             cursor: pointer
+            border: none
+
 
 
 
